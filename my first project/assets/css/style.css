@@ -1,0 +1,128 @@
+@font-face {
+	font-family: robotregular;
+	src: url(../fonts/Roboto-Light.ttf);
+}
+section {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.box {
+	width: 344.83px;
+	height: 564px;
+	border-radius: 20px;
+	color: #fff;
+}
+.box-1 {
+	margin-right: 55px;
+	margin-top: 20px;
+	margin-left: 55px;
+    margin-bottom: 20px;
+	background: #2B3566;
+}
+.box-2 {
+	margin-right: 0px;
+	margin-top: 20px;
+	margin-left: 0px;
+    margin-bottom: 20px;
+	background:#242424;	
+}
+.box-3 {
+	margin-right: 50px;
+	margin-top: 20px;
+	margin-left: 55px;
+    margin-bottom: 20px;
+	background:  #DD1F32;
+}
+.item-content {
+	padding: 47px 47px 0 47px;
+}
+.item-content h1 {
+	font-size: 30px;
+	margin: 0;
+}
+.item-content p {
+	margin-top: 21px;
+	margin-bottom: 26px;
+	font-size: 12px;
+	font-family: robotregular;
+}
+.item-content ul{
+	padding: 0;
+}
+.item-content ul li{
+	margin-bottom: 20px;
+	font-size: 14px;
+	list-style-type: none;
+}
+.fa-check{
+	 margin-right: 12px;
+	 color: #45d3c2;
+}
+.box-2 .fa-check{
+	color: #002BFF;
+}
+.box-3 .fa-check{
+	color: #FDD91A;
+}
+.button-1{
+	font-family: roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	cursor: pointer;
+	margin-top: 30px;
+    background-color: #2B3566;
+	width: 249px;
+	height: 47px;
+    color: white;
+    border: 1px solid #45d3c2;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba (0,0,0,0.25);
+    border-radius: 23.3782px 
+}
+.button-2{
+	font-family: roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	cursor: pointer;
+	margin-top: 30px;
+    background-color: #242424;
+	width: 249px;
+	height: 47px;
+	color: white;
+    border: 1px solid #002BFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba (0,0,0,0.25);
+    border-radius: 23.3782px 
+}
+.button-3{
+	font-family: roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	cursor: pointer;
+	margin-top: 30px;
+    background-color: #DD1F32;
+	width: 249px;
+	height: 47px;
+	color: white;
+    border: 1px solid #FDD91A;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba (0,0,0,0.25);
+    border-radius: 23.3782px 
+}
+.button-1:hover{
+	background-color:#45D3C2;
+	transition: 0.5s ease;
+}
+.button-2:hover{
+	background-color:#002BFF;
+	transition: 0.5s ease;
+}
+.button-3:hover{
+	background-color: #FDD91A;
+	transition: 0.5s ease;
+}
